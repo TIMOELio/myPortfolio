@@ -2,6 +2,7 @@
 body {
     background-image: url("bild.JPG");
     background-size: 100%;
+    background-repeat: no-repeat;
     font-family: "Raleway", Arial, sans-serif;
 }
 
@@ -69,6 +70,11 @@ figcaption {
     filter: brightness(0.7);
 }
 
+/*.linkpic img:hover {
+    width: 102px;
+    height: 102px;
+}*/
+
 .profilpic:hover {
     filter: brightness(0.7);
 }
@@ -78,7 +84,7 @@ a {
     color: white;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 940px) {
     img {
         width: 50px;
         height: 50px;
@@ -96,10 +102,58 @@ a {
 
     #imglinks {
         top: 55%;
+        font-weight: 700;
+        letter-spacing: 0.4px;
     }
-        
+
     .profilpic img {
-        width: 75px;
-        height: 75px;
+        width: 65px;
+        height: 65px;
+    }
+
+    figcaption {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    body {
+        background-size: 1100px;
+        background-position-x: 50%;
+    }
+}
+
+/* Mobile*/
+@media screen and (max-width: 620px) {
+    body {
+        background-attachment: fixed;
+    }
+
+    #main-title {
+        top: 20%;
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .profilpic img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .linkpic img {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+    }
+
+    #imglinks {
+        top: 78%;
+    }
+
+    figcaption {
+        font-size: 30px;
     }
 }
