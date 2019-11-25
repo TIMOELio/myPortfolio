@@ -1,0 +1,106 @@
+
+body {
+    background-image: url("bild.JPG");
+    background-size: 100%;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+#main-title {
+    /* title with border */
+    color: white;
+    text-align: center;
+    width: 330px;
+    position: absolute;
+    border: solid 3px white;
+    
+    /* Center Position */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#imglinks {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.linkpic {
+    float: left;
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.profilpic {
+    float: left;
+    margin: 5px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profilpic img {
+    width: 150px;
+    height: 150px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.linkpic:hover {
+    background-color: gray;
+}
+
+//testin
+img:hover {
+    border: white solid 2px;
+}
+
+.profilpic:hover {
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 920px) {
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    #main-title {
+        width: 160px;
+        top: 42%;
+    }
+
+    #imglinks {
+        top: 55%;
+    }
+        
+    .profilpic img {
+        width: 75px;
+        height: 75px;
+    }
+}
