@@ -17,7 +17,7 @@ body {
     border: solid 3px white;
     
     /* Center Position */
-    top: 40%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -25,7 +25,7 @@ body {
 /* links */
 #imglinks {
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: 700;
@@ -97,6 +97,20 @@ a {
     color: white;
 }
 
+#iconlinks {
+    position: fixed;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#iconlinks img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* middle screen size */
 @media screen and (max-width: 940px) {
 
@@ -115,12 +129,12 @@ a {
     /* smaller title */
     #main-title {
         width: 160px;
-        top: 42%;
+        top: 18%;
     }
 
     /* smaller links */
     #imglinks {
-        top: 55%;
+        top: 50%;
         font-weight: 700;
         letter-spacing: 0.4px;
     }
