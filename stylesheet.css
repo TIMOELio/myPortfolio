@@ -87,8 +87,16 @@ figcaption {
 }*/
 
 /* hover effect */
+.profilpic:visited {
+    animation-name: profilpic-anim;
+    animation-duration: 10s;
+    /*transform: translateY(-100px);*/
+}
+
 .profilpic:hover {
     filter: brightness(0.7);
+    
+
 }
 
 /* link */
@@ -110,6 +118,13 @@ a {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#metab {
+    background-color: black;
+    top: 100%;
+    position: absolute;
+}
+
 
 /* middle screen size */
 @media screen and (max-width: 940px) {
@@ -203,3 +218,13 @@ a {
         font-size: 30px;
     }
 }
+
+/* 
+@keyframes profilpic-anim {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: chartreuse;
+    }
+} */
