@@ -119,10 +119,13 @@ a {
     margin-right: 10px;
 }
 
-#metab {
-    background-color: black;
-    top: 100%;
+#me-tab {
     position: absolute;
+    background-color: blueviolet;
+    top: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 80%;
 }
 
 
