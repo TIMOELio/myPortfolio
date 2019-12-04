@@ -119,15 +119,59 @@ a {
     margin-right: 10px;
 }
 
-#me-tab {
-    position: absolute;
-    background-color: blueviolet;
-    top: 100%;
-    margin-left: 1px;
-    margin-right: 1px;
-    width: 80%;
+#copyright {
+    position: fixed;
+    top: 97%;
+    color: white;
+    left: 37%;
+    transform: translate(-50%, -50%);
 }
 
+#me-tab {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    height: 300px;
+}
+
+#me-tab img {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    float: left;
+}
+
+#me-tab-content {
+    margin-top: 10px;
+    float: left;
+}
+
+#websites-tab {
+    position: absolute;
+    background-color: #285e82;
+    color: white;
+    top: 141.2%;
+    left: 0%;
+    right: 0%;
+    height: 300px;
+    text-align: center;
+}
+
+#websites-tab p {
+    margin-top: -20px;
+}
+
+#games-tab {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 180%;
+    left: 0%;
+    right: 0%;
+    height: 200px
+}
 
 /* middle screen size */
 @media screen and (max-width: 940px) {
@@ -211,14 +255,42 @@ a {
         margin-left: 15px;
     }
 
+    #me-tab {
+        top: 150%;
+    }
+
+    #websites-tab {
+        top: 200%;
+    }
+
+    #games-tab {
+        top: 240%;
+    }
+
+    #me-tab img {
+        visibility: hidden;
+        float: none;
+        margin-top: 100px;
+    }
+
+    #me-tab-content {
+        position: fixed;
+        margin-left: 5px;
+    }
+
     /* mobile link height */
     #imglinks {
-        top: 78%;
+        top: 90%;
     }
 
     /* mobile link title */
     figcaption {
         font-size: 30px;
+    }
+
+    #iconlinks {
+        width: 90%;
+        left: 62%;
     }
 }
 
