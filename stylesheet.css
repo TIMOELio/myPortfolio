@@ -148,6 +148,12 @@ a {
     float: left;
 }
 
+#me-tab-content2 {
+    margin-top: 68px;
+    margin-left: 100px;
+    float: left;
+}
+
 #websites-tab {
     position: absolute;
     background-color: #285e82;
@@ -155,22 +161,93 @@ a {
     top: 141.2%;
     left: 0%;
     right: 0%;
-    height: 300px;
+    height: 440px;
     text-align: center;
+}
+
+#websites-tab img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
 }
 
 #websites-tab p {
     margin-top: -20px;
 }
 
+#websites-tab h2 {
+    font-size: 25px;
+}
+
+#websites-tab figcaption {
+    margin-top: -20px;
+}
+
+#websites-tab figcaption p {
+    margin-top: -10px;
+}
+
+#websites-tab-content {
+    position: absolute;
+    top: 58%;
+    left: 56%;
+    width: 1000px;
+    transform: translate(-50%, -50%);
+}
+
+#websites-tab-content-site {
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
 #games-tab {
     position: absolute;
-    background-color: blue;
-    color: white;
-    top: 180%;
+    background-color: white;
+    color: black;
+    top: 200.0%;
     left: 0%;
     right: 0%;
-    height: 200px
+    height: 530px;
+    text-align: center;
+}
+
+#games-tab img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+#games-tab p {
+    margin-top: -20px;
+    color: black;
+}
+
+#games-tab h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#games-tab figcaption {
+    margin-top: -20px;
+}
+
+#games-tab figcaption p {
+    margin-top: -10px;
+}
+
+#games-tab-content {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+}
+
+#games-tab-content-site {
+    width: 200px;
+    height: 250px;
+    float: left;
 }
 
 /* middle screen size */
