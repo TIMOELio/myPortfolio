@@ -201,14 +201,112 @@ a {
     float: left;
 }
 
+#sucess-tab {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 200%;
+    left: 0%;
+    right: 0%;
+    height: 410px;
+    text-align: center;
+}
+
+#sucess-tab img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+#sucess-tab p {
+    margin-top: -20px;
+    color: black;
+}
+
+#sucess-tab h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#sucess-tab figcaption {
+    margin-top: -20px;
+}
+
+#sucess-tab figcaption p {
+    margin-top: -10px;
+}
+
+#sucess-tab-content {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+}
+
+#sucess-tab-content-site {
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
+#github-tab {
+    position: absolute;
+    background-color: #285e82;
+    color: white;
+    top: 258.8%;
+    left: 0%;
+    right: 0%;
+    height: 530px;
+    text-align: center;
+}
+
+#github-tab img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+#github-tab p {
+    margin-top: -20px;
+    color: white;
+}
+
+#github-tab h2 {
+    font-size: 25px;
+    color: white;
+}
+
+#github-tab figcaption {
+    margin-top: -20px;
+}
+
+#github-tab figcaption p {
+    margin-top: -10px;
+}
+
+#github-tab-content {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+}
+
+#github-tab-content-site {
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
 #games-tab {
     position: absolute;
     background-color: white;
     color: black;
-    top: 200.0%;
+    top: 330%;
     left: 0%;
     right: 0%;
-    height: 530px;
+    height: 440px;
     text-align: center;
 }
 
@@ -238,15 +336,31 @@ a {
 
 #games-tab-content {
     position: absolute;
-    top: 62%;
-    left: 50%;
-    width: 400px;
+    top: 58%;
+    left: 62%;
+    width: 1000px;
     transform: translate(-50%, -50%);
 }
 
 #games-tab-content-site {
     width: 200px;
     height: 250px;
+    float: left;
+}
+
+#credits-tab {
+    position: absolute;
+    background-color: black;
+    top: 390%;
+    left: 0%;
+    right: 0%;
+    height: 280px;
+    color: white;
+}
+
+#credits-tab-content {
+    margin-top: 40px;
+    margin-left: 100px;
     float: left;
 }
 
