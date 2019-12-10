@@ -173,10 +173,12 @@ a {
 
 #websites-tab p {
     margin-top: -20px;
+    color: white;
 }
 
 #websites-tab h2 {
     font-size: 25px;
+    color: white;
 }
 
 #websites-tab figcaption {
@@ -208,7 +210,7 @@ a {
     top: 200%;
     left: 0%;
     right: 0%;
-    height: 410px;
+    height: 440px;
     text-align: center;
 }
 
@@ -238,9 +240,9 @@ a {
 
 #sucess-tab-content {
     position: absolute;
-    top: 62%;
-    left: 50%;
-    width: 400px;
+    top: 58%;
+    left: 62%;
+    width: 1000px;
     transform: translate(-50%, -50%);
 }
 
