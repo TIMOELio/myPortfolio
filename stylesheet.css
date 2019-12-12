@@ -366,6 +366,90 @@ a {
     float: left;
 }
 
+@media screen and (max-width: 1280px) {
+
+    #imglinks {
+        width: 630px;
+    }
+
+}
+
+@media screen and (max-height: 693px) {
+
+    #websites-tab {
+        top: ;
+    }
+
+    #sucess-tab {
+        top: 210%;
+    }
+
+    #github-tab {
+        top: 280%;
+    }
+
+    #games-tab {
+        top: ;
+    }
+
+    #credits-tab {
+        top: 400%;
+    }
+
+}
+
+@media screen and (max-height: 640px) {
+
+    #websites-tab {
+        top: 150%;
+    }
+
+    #sucess-tab {
+        top: 225%;
+    }
+
+    #github-tab {
+        top: 300%;
+    }
+
+    #games-tab {
+        top: 350%;
+    }
+
+    #credits-tab {
+        top: 430%;
+    }
+
+}
+
+@media screen and (max-height: 535px) {
+
+    #me-tab {
+        height: 400px;
+    }
+
+    #websites-tab {
+        top: 160%;
+    }
+
+    #sucess-tab {
+        top: 245%;
+    }
+
+    #github-tab {
+        top: 330%;
+    }
+
+    #games-tab {
+        top: 380%;
+    }
+
+    #credits-tab {
+        top: 470%;
+    }
+
+}
+
 /* middle screen size */
 @media screen and (max-width: 940px) {
 
