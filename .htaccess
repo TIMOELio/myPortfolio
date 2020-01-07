@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^joelbrendle.ch [NC]
+
+RewriteRule ^(.*)$ https://www.joelbrendle.ch/$1 [L,R=301,NC]
