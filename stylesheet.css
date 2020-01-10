@@ -95,8 +95,6 @@ figcaption {
 
 .profilpic:hover {
     filter: brightness(0.7);
-    
-
 }
 
 /* link */
@@ -117,6 +115,10 @@ a {
     height: 45px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#iconlinks img:hover {
+    filter: brightness(0.7);
 }
 
 #copyright {
@@ -203,6 +205,10 @@ a {
     float: left;
 }
 
+#websites-tab-content-site:hover {
+    filter: brightness(0.7);
+}
+
 #sucess-tab {
     position: absolute;
     background-color: white;
@@ -250,6 +256,10 @@ a {
     width: 200px;
     height: 250px;
     float: left;
+}
+
+#sucess-tab-content-site:hover {
+    filter: brightness(0.7);
 }
 
 #github-tab {
@@ -301,6 +311,10 @@ a {
     float: left;
 }
 
+#github-tab-content-site:hover {
+    filter: brightness(0.7);
+}
+
 #games-tab {
     position: absolute;
     background-color: white;
@@ -339,7 +353,7 @@ a {
 #games-tab-content {
     position: absolute;
     top: 58%;
-    left: 62%;
+    left: 56%;
     width: 1000px;
     transform: translate(-50%, -50%);
 }
@@ -348,6 +362,10 @@ a {
     width: 200px;
     height: 250px;
     float: left;
+}
+
+#games-tab-content-site:hover {
+    filter: brightness(0.7);
 }
 
 #credits-tab {
@@ -571,8 +589,8 @@ a {
     }
 }
 
-/* 
-@keyframes profilpic-anim {
+
+/*@keyframes profilpic-anim {
     from {
         background-color: black;
     }
