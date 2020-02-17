@@ -519,73 +519,72 @@ a {
 }
 
 /* Mobile */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 380px) {
 
-    /* fixing background */
-    body {
-        background-attachment: fixed;
-    }
+    @media screen and (max-height: 820px) {
 
-    /* mobile title */
-    #main-title {
-        top: 20%;
-        width: 300px;
-    }
+        /* fixing background */
+        body {
+            background-attachment: fixed;
+        }
 
-    /* mobile title font */
-    h1 {
-        font-size: 45px;
-    }
+        /* mobile title */
+        #main-title {
+            top: 20%;
+            width: 300px;
+        }
 
-    /* mobile link picture */
-    .profilpic img {
-        width: 180px;
-        height: 180px;
-    }
+        /* mobile link height */
+        #imglinks {
+            top: 100%;
+            width: 80%;
+            left: 63%;
+        }
 
-    /* mobile link picture */
-    .linkpic img {
-        width: 150px;
-        height: 150px;
-        margin-left: 15px;
-    }
+        /* mobile title font */
+        h1 {
+            font-size: 45px;
+        }
 
-    #me-tab {
-        top: 150%;
-    }
+        /* mobile link picture */
+        .profilpic img {
+            width: 180px;
+            height: 180px;
+        }
 
-    #websites-tab {
-        top: 200%;
-    }
+        /* mobile link picture */
+        .linkpic img {
+            width: 150px;
+            height: 150px;
+            margin-left: 15px;
+        }
 
-    #games-tab {
-        top: 240%;
-    }
+        #me-tab {
+            top: 150%;
+        }
 
-    #me-tab img {
-        visibility: hidden;
-        float: none;
-        margin-top: 100px;
-    }
+        #websites-tab {
+            top: 200%;
+        }
 
-    #me-tab-content {
-        position: fixed;
-        margin-left: 5px;
-    }
+        #games-tab {
+            top: 240%;
+        }
 
-    /* mobile link height */
-    #imglinks {
-        top: 90%;
-    }
+        #me-tab-content {
+            position: fixed;
+            margin-left: 5px;
+        }
 
-    /* mobile link title */
-    figcaption {
-        font-size: 30px;
-    }
+        /* mobile link title */
+        figcaption {
+            font-size: 30px;
+        }
 
-    #iconlinks {
-        width: 90%;
-        left: 62%;
+        #iconlinks {
+            width: 90%;
+            left: 62%;
+        }
     }
 }
 
