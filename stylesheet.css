@@ -491,6 +491,7 @@ a {
 
     /* smaller links */
     #imglinks {
+        margin-left: 15%;
         top: 50%;
         font-weight: 700;
         letter-spacing: 0.4px;
@@ -524,21 +525,20 @@ a {
     @media screen and (max-height: 820px) {
 
         /* fixing background */
-        body {
-            background-attachment: fixed;
+        body { 
         }
 
         /* mobile title */
         #main-title {
-            top: 20%;
+            top: 12%;
             width: 300px;
         }
 
         /* mobile link height */
         #imglinks {
-            top: 100%;
-            width: 80%;
-            left: 63%;
+            top: 90%;
+            width: 90%;
+            left: 50%;
         }
 
         /* mobile title font */
@@ -548,15 +548,22 @@ a {
 
         /* mobile link picture */
         .profilpic img {
-            width: 180px;
-            height: 180px;
+            width: 150px;
+            height: 150px;
         }
 
         /* mobile link picture */
         .linkpic img {
-            width: 150px;
-            height: 150px;
+            width: 90px;
+            height: 90px;
             margin-left: 15px;
+        }
+
+        .profilpic {
+            width: 60%;
+        }
+
+        .profilpic figcaption {
         }
 
         #me-tab {
