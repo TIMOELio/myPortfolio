@@ -520,9 +520,9 @@ a {
 }
 
 /* Mobile */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 415px) {
 
-    @media screen and (max-height: 820px) {
+    @media screen and (max-height: 900px) {
 
         /* fixing background */
         body { 
