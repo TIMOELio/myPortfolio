@@ -526,6 +526,7 @@ a {
 
         /* fixing background */
         body { 
+            background-size: 324%;
         }
 
         /* mobile title */
@@ -536,7 +537,7 @@ a {
 
         /* mobile link height */
         #imglinks {
-            top: 90%;
+            top: 55%;
             width: 90%;
             left: 50%;
         }
@@ -560,27 +561,43 @@ a {
         }
 
         .profilpic {
-            width: 60%;
+            width: 49%;
+            margin-left: 15%;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 
-        .profilpic figcaption {
+        #third-linkpic {
+            float: left;
         }
 
         #me-tab {
-            top: 150%;
+            top: 100%;
+            width: 50%;
+        }
+
+        #me-tab img {
+            height: 100px;
+            width: 100px;
+        }
+
+        #me-tab-content {
+            width: 100%;
+            float: right;
         }
 
         #websites-tab {
             top: 200%;
+            width: 100%;
         }
 
         #games-tab {
             top: 240%;
+            width: 100%;
         }
 
-        #me-tab-content {
-            position: fixed;
-            margin-left: 5px;
+        #sucess-tab {
+            width: 100%;
         }
 
         /* mobile link title */
