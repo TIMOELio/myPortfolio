@@ -269,7 +269,7 @@ a {
     top: 258.8%;
     left: 0%;
     right: 0%;
-    height: 530px;
+    height: 400px;
     text-align: center;
 }
 
@@ -299,27 +299,42 @@ a {
 
 #github-tab-content {
     position: absolute;
-    top: 62%;
+    top: 63%;
     left: 50%;
-    width: 400px;
+    width: 850px;
     transform: translate(-50%, -50%);
 }
 
 #github-tab-content-site {
     width: 200px;
-    height: 250px;
+    height: 200px;
     float: left;
+    background-color: white;
+    margin: 0 5px 0 5px;
+}
+
+#github-tab-content-site h2 {
+    font-weight: bold;
+    color: #285e82;
+}
+
+#github-tab-content-site p {
+    color: #285e82;
 }
 
 #github-tab-content-site:hover {
     filter: brightness(0.7);
 }
 
+#gith-info1 {
+   color: black;
+}
+
 #games-tab {
     position: absolute;
     background-color: white;
     color: black;
-    top: 330%;
+    top: 310%;
     left: 0%;
     right: 0%;
     height: 440px;
@@ -371,7 +386,7 @@ a {
 #credits-tab {
     position: absolute;
     background-color: black;
-    top: 390%;
+    top: 370%;
     left: 0%;
     right: 0%;
     height: 280px;
